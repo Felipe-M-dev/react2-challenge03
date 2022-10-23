@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Desafío - Router II
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+● Para realizar este desafío debes haber estudiado previamente todo el material disponible correspondiente a la unidad.
 
-## Available Scripts
+● Una vez terminado el desafío, comprime la carpeta que contiene el desarrollo de los requerimientos solicitados y sube el .zip en el LMS.
 
-In the project directory, you can run:
+● Este desafío es de carácter sumativo, es decir, lleva una calificación.
 
-### `npm start`
+● Puntaje total: 10 puntos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+● Desarrollo desafío:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ○ El desafío se debe desarrollar de manera Individual.
+  
+## Habilidades a evaluar
 
-### `npm test`
+● Obtener los parámetros de una ruta con useParams()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+● Redireccionar programáticamente usando useNavigate()
 
-### `npm run build`
+● Usar NavLink para definir una clase activa a la ruta que se esté visitando 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contextualización
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+En este desafío pondremos a prueba tus nuevas habilidades con React Router para consolidar el redireccionamiento de rutas, la obtención de parámetros en una ruta y la asignación de una clase activa a la ruta que se esté visitando en una SPA.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A continuación te mostramos imágenes de las vistas de la aplicación que deberás realizar:
 
-### `npm run eject`
+<p align="center">
+  <img src="https://github.com/Felipe-M-dev/react2-challenge03/blob/main/public/01.png?raw=true?raw=true" alt="Imagen 01"><br>
+Imagen 1. Vista Home<br>
+Fuente: Desafío Latam
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="center">
+  <img src="https://github.com/Felipe-M-dev/react2-challenge03/blob/main/public/02.png?raw=true?raw=true" alt="Imagen 02"><br>
+Imagen 2. Pokemones<br>
+Fuente: Desafío Latam
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+  <img src="https://github.com/Felipe-M-dev/react2-challenge03/blob/main/public/03.png?raw=true?raw=true" alt="Imagen 03"><br>
+Imagen 3. /pokemones/:name<br>
+Fuente: Desafío Latam
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Requerimientos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Asignar una clase active a la ruta que el usuario consulte usando NavLink __(3 Puntos)__
 
-## Learn More
+2. Redireccionar programáticamente al usuario usando el hook useNavigate __(4 Puntos)__
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Obtener parámetros de la URL usando el hook useParams __(3 Puntos)__
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+  <strong>😊¡Mucho éxito!</strong>
+</p>
 
-### Code Splitting
+## Solución
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Descargar el proyecto.
 
-### Analyzing the Bundle Size
+2. Desde una terminal, posicionarse sobre la carpeta del proyecto y lanzar el siguiente comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```npm install```
 
-### Making a Progressive Web App
+3. Al terminal la instalación de los módulos del proyecto, levantar servidor con el siguiente comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```npm start```
 
-### Advanced Configuration
+4. Cuando el server ya se encuentre arriba, ingresar al navegador y validar sitio en la siguiente URL:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```http://localhost:3000/```
 
-### Deployment
+## Sitio desplegado en Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+__URL:__
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://pokedex-route02.netlify.app/
